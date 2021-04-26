@@ -8,3 +8,4 @@
 You can copy one of link addresses below as a resource url to add in your [TabHub](https://tabhub.io) settings:
 
 
+ - [CET4](https://raw.githubusercontent.com/tabhub/English-words-cards/main/CET4/manifest.json)

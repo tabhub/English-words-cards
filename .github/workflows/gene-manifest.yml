@@ -1,0 +1,23 @@
+name: Gene TabHub Cards
+
+on: [push]
+
+jobs:
+  gene-manifest-file:
+    runs-on: ubuntu-latest
+    name: A job to gene TabHub action manifest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: TabHub Card Action
+      uses: tabhub/tabhub-card-action@master
+    - name: Git commit
+      run: |
+        # git commit if there's any change
+        if test -n "$(git status --porcelain 2>/dev/null)"; then
+            git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git config --local user.name "github-actions[bot]"
+            git add .
+            git commit -m "Update manifest"
+            git push
+        fi

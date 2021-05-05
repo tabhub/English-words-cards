@@ -10,6 +10,7 @@ You can copy one of link addresses below as a resource url to add in your [TabHu
 
  - [CET4](https://raw.githubusercontent.com/tabhub/English-words-cards/main/CET4/manifest.json)
  - [CET6](https://raw.githubusercontent.com/tabhub/English-words-cards/main/CET6/manifest.json)
+ - [GRE](https://raw.githubusercontent.com/tabhub/English-words-cards/main/GRE/manifest.json)
 
 ---
 
